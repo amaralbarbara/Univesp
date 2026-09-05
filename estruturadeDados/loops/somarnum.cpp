@@ -2,12 +2,12 @@
  * Soma de 1 até um limite superior usando um loop while
  */
 #include <iostream>
-#include <windows.h>
+#include <windows.h> //biblioteca com formatacao utf8
 using namespace std;
 
 int main()
 {
-    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleOutputCP(CP_UTF8); //formatacao utf8
     SetConsoleCP(CP_UTF8);
 
     int soma = 0, numero = 0; // Declara uma variável int soma para acumular os números e define a soma inicial como 0
